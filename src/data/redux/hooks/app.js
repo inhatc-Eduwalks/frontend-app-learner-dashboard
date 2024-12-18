@@ -106,3 +106,5 @@ export const useLoadData = () => {
     dispatch(actions.loadCourses({ courses }));
   };
 };
+
+
