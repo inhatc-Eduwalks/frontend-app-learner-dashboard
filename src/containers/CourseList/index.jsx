@@ -32,6 +32,7 @@ export const CourseList = () => {
     <div className="course-list-container">
       <div className="course-list-heading-container">
         <h2 className="course-list-title">{formatMessage(messages.myCourses)}</h2>
+        <h1>데모코스입니다.</h1>
         <div className="course-filter-controls-container">
           <CourseFilterControls {...filterOptions} />
         </div>
